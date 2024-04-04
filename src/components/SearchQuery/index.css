@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movieItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
+  justify-content: center;
+  align-items: center;
+}
